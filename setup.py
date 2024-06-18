@@ -2,9 +2,9 @@ from setuptools import setup
 
 setup(
     name='pyChemometrics',
-    version='0.13.5',
+    version='0.14',
     packages=['pyChemometrics'],
-    url='https://github.com/Gscorreia89/pyChemometrics/',
+    url='https://github.com/oloBion/pyChemometrics/',
     documentation='http://pychemometrics.readthedocs.io/en/stable/',
     license='BSD 3-Clause License',
     author='Gonçalo Correia',
