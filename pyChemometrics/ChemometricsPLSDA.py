@@ -440,7 +440,7 @@ class ChemometricsPLSDA(ChemometricsPLS, ClassifierMixin):
                 # euclidean distance to mean of class for multiclass PLS-DA
                 # probably better to use a Logistic/Multinomial or PLS-LDA anyway...
                 # project X onto T - so then we can get
-                pred_scores = self.transform(x=x)
+                pred_scores = self.transform(x)
                 # prediction rule - find the closest class mean (centroid) for each sample in the score space
                 closest_class_mean = lambda x: np.argmin(np.linalg.norm((x - self.class_means), axis=1))
                 class_pred = np.apply_along_axis(closest_class_mean, axis=1, arr=pred_scores)
