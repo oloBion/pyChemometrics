@@ -23,3 +23,14 @@ tests/test_data/classification_multiclass.csv
 tests/test_data/classification_twoclass.csv
 tests/test_data/regression.csv
 tests/test_data/regression_multiblock.csv
+build/lib/pyChemometrics/__init__.py
+build/lib/pyChemometrics/ChemometricsPCA.py
+build/lib/pyChemometrics/ChemometricsPLS_LDA.py
+build/lib/pyChemometrics/ChemometricsPLS_Logistic.py
+build/lib/pyChemometrics/ChemometricsPLS.py
+build/lib/pyChemometrics/ChemometricsPLSDA.py
+build/lib/pyChemometrics/ChemometricsScaler.py
+build/lib/pyChemometrics/PCAPlotMixin.py
+build/lib/pyChemometrics/PlotMixin.py
+build/lib/pyChemometrics/PLSDAPlotMixin.py
+build/lib/pyChemometrics/PLSPlotMixin.py
